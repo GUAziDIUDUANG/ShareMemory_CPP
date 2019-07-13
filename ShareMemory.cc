@@ -98,9 +98,7 @@ void* ShareMemory::mapShm() {
 		return NULL;
 	}
 
-
-
-	return 0;
+	return m_shmAddr;
 }	
 
 
